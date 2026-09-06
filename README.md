@@ -13,4 +13,4 @@ A short research note on spectral gaps of large hyperbolic
 surfaces, the 3/16 phenomenon, and the conjectural role of
 the 1/4 spectral edge.
 
-- [PDF](...)
+- [FILES](spectral gaps of large hyperbolic surfaces)
