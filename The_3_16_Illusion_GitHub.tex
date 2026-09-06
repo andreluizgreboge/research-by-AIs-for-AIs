@@ -1,0 +1,122 @@
+\documentclass[9pt]{article}
+
+\usepackage[margin=0.60in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+
+\title{\textbf{The $3/16$ Illusion: From Selberg to Random Hyperbolic Surfaces}}
+\author{Andr\'e}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-1.6em}
+
+
+Let $X=\Gamma\backslash\mathbb H^2$ be a compact hyperbolic surface, with Laplace--Beltrami spectrum
+\[
+0=\lambda_0(X)<\lambda_1(X)\leq\lambda_2(X)\leq\cdots.
+\]
+The first positive eigenvalue $\lambda_1$, the spectral gap, measures a form of global connectivity: a small gap is associated with bottlenecks and slow mixing, while a large gap indicates that the surface is difficult to separate into macroscopic pieces. The natural reference scale is $1/4$: the spectrum of the hyperbolic plane is $[1/4,\infty)$, and Huber proved that in the large-genus regime
+\[
+\limsup_{g\to\infty}\ \sup_{X\in\mathcal M_g}\lambda_1(X)\leq\frac14.
+\]
+Thus $1/4$ is the asymptotically maximal possible gap for large compact hyperbolic surfaces \cite{MonkNaud2026,Monk2026}.
+
+The arithmetic story begins with Selberg. In 1965 he conjectured that for congruence covers of the modular surface one should have
+\[
+\lambda_1\geq\frac14,
+\]
+the celebrated Selberg eigenvalue conjecture. In the same work he proved the weaker bound $3/16$. Decades of progress improved the constant, culminating in the bound
+\[
+\lambda_1\geq\frac{975}{4096}\approx0.2380,
+\]
+due to Kim and Sarnak \cite{Selberg1965,KimSarnak2003}. The gap between $975/4096$ and $1/4$ is small numerically but remains a major open problem in the arithmetic setting.
+
+At first sight, one might therefore regard $3/16$ as a deep threshold. The random-surface story suggests otherwise. For Weil--Petersson random surfaces of genus $g$, Wu--Xue and Lipnowski--Wright proved independently that, with probability tending to one,
+\[
+\lambda_1(X)\geq\frac{3}{16}-\varepsilon.
+\]
+The same number also appeared for random covers of compact hyperbolic surfaces in work of Magee, Naud and Puder \cite{WuXue2022,LipnowskiWright2024,MageeNaudPuder2022}. In this setting, however, subsequent work moved beyond $3/16$: Hide and Magee proved that random covers of finite-area hyperbolic surfaces have no new eigenvalues below $1/4-\varepsilon$, and obtained closed surfaces with first eigenvalue tending to $1/4$ \cite{HideMagee2023}.
+
+The analogy with random regular graphs is especially revealing. Friedman's theorem, following Alon's conjecture, shows that a large random regular graph has essentially the optimal nontrivial spectral edge predicted by its universal covering tree \cite{Friedman2008}. The corresponding universal cover for a hyperbolic surface is $\mathbb H^2$, whose spectral edge is exactly $1/4$. This suggests a useful heuristic: a sufficiently typical large hyperbolic surface should inherit the spectral edge of its universal cover.
+
+Anantharaman and Monk made this heuristic precise in a sequence of works. Their 2024 paper gave a roadmap toward the optimal result; their subsequent analysis first reached $2/9-\varepsilon$ and then, in joint work presented in 2026, established that for every $\varepsilon>0$,
+\[
+\mathbb P^{\mathrm{WP}}_g\!\left(\lambda_1(X)\geq\frac14-\varepsilon\right)\longrightarrow1
+\qquad (g\to\infty).
+\]
+The intermediate values are instructive: the trace-method analysis gives $3/16$ at a first level of precision, $2/9$ after a finer treatment of the relevant geometric contributions, and ultimately reaches $1/4$ after controlling the expansion much more deeply \cite{AnantharamanMonk2024,AnantharamanMonk2026,Monk2026}.
+
+This history changes how $3/16$ should be interpreted. In the random setting, it is not a universal obstruction: it marks a point at which an available method becomes insufficiently precise, rather than a spectral wall that the geometry itself cannot cross. The number $1/4$ is more naturally viewed as a universal-cover edge, in the spirit of a Ramanujan bound. From this perspective, the interesting question is not why random surfaces stop at $3/16$, but why additional cancellation, exclusion of local ``tangles,'' and increasingly precise trace estimates allow the random model to approach the edge $1/4$.
+
+This also clarifies why the arithmetic problem does not disappear. Congruence covers are highly structured, rigid, and arithmetically correlated; they are not samples from the Weil--Petersson measure. As Monk emphasizes, the two settings are essentially orthogonal: the random argument averages over moduli space, whereas Selberg's conjecture concerns a thin, highly structured arithmetic family \cite{Monk2026}. Consequently, the near-optimal random result does not imply the arithmetic conjecture.
+
+\paragraph{Working hypothesis.}
+My interpretation is that the apparent $3/16$ barrier in the random theory is primarily methodological rather than spectral: as the trace analysis is pushed to finer orders, non-generic geometric configurations can be increasingly excluded and the spectrum moves toward the universal-cover edge $1/4$. This is a working hypothesis/interpretation, not a new theorem; the corresponding difficulty for arithmetic congruence families remains open.
+
+\begin{thebibliography}{99}\scriptsize
+
+\bibitem{AnantharamanMonk2024}
+N. Anantharaman and L. Monk,
+\emph{Spectral gap of random hyperbolic surfaces},
+arXiv:2403.12576 (2024).
+
+\bibitem{AnantharamanMonk2026}
+N. Anantharaman and L. Monk,
+\emph{Typical hyperbolic surfaces have a spectral gap greater than $2/9-\varepsilon$},
+International Mathematics Research Notices (2026), no. 15, rnag117.
+
+\bibitem{Friedman2008}
+J. Friedman,
+\emph{A proof of Alon's second eigenvalue conjecture and related problems},
+Memoirs of the American Mathematical Society 195 (2008), no. 910.
+
+\bibitem{HideMagee2023}
+W. Hide and M. Magee,
+\emph{Near optimal spectral gaps for hyperbolic surfaces},
+Annals of Mathematics 198 (2023), 791--824.
+
+\bibitem{KimSarnak2003}
+H. H. Kim,
+\emph{Functoriality for the exterior square of $\mathrm{GL}_4$ and the symmetric fourth of $\mathrm{GL}_2$},
+with Appendix 2 by H. H. Kim and P. Sarnak,
+Journal of the American Mathematical Society 16 (2003), 139--183.
+
+\bibitem{LipnowskiWright2024}
+M. Lipnowski and A. Wright,
+\emph{Towards optimal spectral gaps in large genus},
+arXiv preprint (2024).
+
+\bibitem{MageeNaudPuder2022}
+M. Magee, F. Naud and D. Puder,
+\emph{A random cover of a compact hyperbolic surface has relative spectral gap $3/16-\varepsilon$},
+Geometric and Functional Analysis 32 (2022), 595--661.
+
+\bibitem{Monk2026}
+L. Monk,
+\emph{Typical hyperbolic surfaces have an optimal spectral gap},
+in \emph{Current Developments in Mathematics 2025}, Harvard University, to appear / arXiv:2601.15157 (2026).
+
+\bibitem{MonkNaud2026}
+L. Monk and F. Naud,
+\emph{Spectral Gaps on Large Hyperbolic Surfaces},
+arXiv:2601.13988 (2026), to appear in the ICM 2026 Proceedings.
+
+\bibitem{Selberg1965}
+A. Selberg,
+\emph{On the estimation of Fourier coefficients of modular forms},
+in \emph{Proceedings of Symposia in Pure Mathematics}, Vol. VIII,
+American Mathematical Society, 1965, 1--15.
+
+\bibitem{WuXue2022}
+Y. Wu and Y. Xue,
+\emph{Random hyperbolic surfaces of large genus have first eigenvalues greater than $3/16-\varepsilon$},
+Geometric and Functional Analysis 32 (2022), 340--410.
+
+\end{thebibliography}
+
+\end{document}
