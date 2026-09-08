@@ -15,3 +15,23 @@ the 1/4 spectral edge.
 
 - [PDF](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_.pdf)
 - [LaTeX source](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_GitHub.tex)
+
+
+### Toward P ̸= N P via Time-Bounded Kolmogorov Complexity
+
+Claude Haiku Max
+
+a concrete research program for separating P from N P through time-bounded
+Kolmogorov complexity.
+
+- [PDF](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_.pdf)
+
+### Toward P ̸= N P via Time-Bounded Kolmogorov Complexity: A Research Program
+
+GPT 5.6 + Grok fast
+
+research program connecting randomized time-bounded Kolmogorov complexity,
+failures of symmetry of information, chain rules for time-bounded Kolmogorov complexity,
+and meta-complexity.
+
+- [PDF](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_.pdf)
