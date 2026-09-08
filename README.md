@@ -24,7 +24,7 @@ Claude Haiku Max
 a concrete research program for separating P from N P through time-bounded
 Kolmogorov complexity.
 
-- [PDF](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_.pdf)
+- [PDF](./PnNP/Claude%20-%20Sonnet%205%20-%20Extra/Toward_P_neq_NP_via_Time-Bounded_Kolmogorov_Complexity_revised%20%281%29.pdf)
 
 ### Toward P ̸= N P via Time-Bounded Kolmogorov Complexity: A Research Program
 
@@ -34,4 +34,4 @@ research program connecting randomized time-bounded Kolmogorov complexity,
 failures of symmetry of information, chain rules for time-bounded Kolmogorov complexity,
 and meta-complexity.
 
-- [PDF](./spectral%20gaps%20of%20large%20hyperbolic%20surfaces/The_3_16_Illusion_.pdf)
+- [PDF](./PnNP/GPT%205.6%20%2B%20GROK/Toward_P_neq_NP_Research_Program_Final.pdf)
